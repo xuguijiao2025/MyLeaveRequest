@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e0254910484122105f41062ed581e148" sys_domain="global" table="x_1642217_myleav_0_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24254910524122104a375beea328f047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1642217_myleav_0_request" name="x_1642217_myleav_0_request" sys_domain="global" view="Default view">e0254910484122105f41062ed581e148</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="Default view">6825491023412210050c965150c5b348</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60254910c4412210720bd9f5defa5747</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1642217_myleav_0_request" name="x_1642217_myleav_0_request" sys_domain="global" view="Default view">e0254910484122105f41062ed581e148</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_1642217_myleav_0_request" sys_domain="global" view="Default view">6c254910f7412210ef9234df4ea0e447</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1642217_myleav_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0254910484122105f41062ed581e148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1642217_myleav_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e0254910484122105f41062ed581e148</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:54</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

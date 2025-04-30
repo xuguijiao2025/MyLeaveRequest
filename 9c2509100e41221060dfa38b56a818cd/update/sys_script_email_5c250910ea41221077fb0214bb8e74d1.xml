@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_1642217_myleav_0.header_box</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    var color = gs.getProperty("x_1642217_myleav_0.u_header_bgcolor");
+    var icon = gs.getProperty("x_1642217_myleav_0.u_company_icon");
+    var imgGr = new GlideRecord("db_image");
+	imgGr.addQuery('name',icon);
+	imgGr.query();
+	if(!imgGr.next()){
+		icon = null;
+	}
+	var timeOff = new TimeOffSNC;
+	var checkHex = timeOff.checkHex(color);
+	if(!color || !checkHex){
+		color = '#151920';
+	}
+    template.print('<div style="width: 600px; height: 210px; background-color:' + color + ';">');
+    if (icon) {
+        template.print('<img style="align: middle;" title="" src="' + icon + '" alt="" width="94.16" height="64" align="middle" border="" hspace="250" vspace="60" />');
+    } else {
+        template.print('<h1 style="padding-left: 2rem;padding-right: 2rem;font-family: Open Sans, Arial, sans-serif;text-align: center; color: #FFFFFF; word-wrap: break-word; padding-top: 4rem; display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;">MyLeaveRequest<h1>');
+    }
+    template.print('</div>');
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+        <sys_id>5c250910ea41221077fb0214bb8e74d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1642217_myleav_0.header_box</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_script_email_5c250910ea41221077fb0214bb8e74d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+    </sys_script_email>
+</record_update>

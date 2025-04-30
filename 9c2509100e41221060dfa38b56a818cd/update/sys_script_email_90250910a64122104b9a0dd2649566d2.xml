@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_1642217_myleav_0.footer_box</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+	var font_color = 'color:  #e9f3f0;';
+    //var font_size = 'font-size:var(--now-global-font-size--sm)';
+	var font_size = 'font-size:12px';
+    var color = gs.getProperty("x_1642217_myleav_0.u_footer_bgcolor");
+	var timeOff = new TimeOffSNC;
+	var checkHex = timeOff.checkHex(color);
+	if(!color || !checkHex){
+		color = '#151920';
+	}
+    var now_icon = "x_1642217_myleav_0.now_logo.svg";
+    template.print('<div style="width: 600px; height: 120px; background-color:' + color + '; text-align:center; padding:1.5rem 0">');
+    template.print('<img style="align: middle;" title="" src="' + now_icon + '" alt="" width="174" height="50" align="middle" border="" />');
+    template.print('<p style ="'+font_color+font_size+'">This email was sent by a ServiceNow fulfillment request system. <br> © 2023 ServiceNow Inc. All rights reserved.</p>');
+    template.print('</div>');
+
+    // Add your code here
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:43</sys_created_on>
+        <sys_id>90250910a64122104b9a0dd2649566d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1642217_myleav_0.footer_box</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_script_email_90250910a64122104b9a0dd2649566d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:43</sys_updated_on>
+    </sys_script_email>
+</record_update>

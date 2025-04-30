@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Edit">3c258910c6412210722f01ca5b40fb5a</action_payload_definition>
+        <label>Edit  Related List</label>
+        <model display_value="Related List">d91731a9534723003eddddeeff7b121c</model>
+        <payload_map>sysIds={{sysIds}}^table={{table}}^EQ</payload_map>
+        <required_translations/>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:44</sys_created_on>
+        <sys_id>7c2589105c412210a113bf9a0de81346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit  Related List</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_7c2589105c412210a113bf9a0de81346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:44</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

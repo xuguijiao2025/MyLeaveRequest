@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1642217_myleav_0.TimeOffDateValidation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TimeOffDateValidation</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var TimeOffDateValidation = Class.create();
+TimeOffDateValidation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+ startDate: function() {
+        var obj = {
+            status: false,
+            message: ""
+        };
+        try {
+            var date = this.getParameter('sysparm_date');
+            var tableName = this.getParameter('sysparm_tableName');
+            var endDt = this.getParameter('sysparm_enddate');
+
+            var currentDate = new GlideDateTime();
+
+            var startDate = new GlideDateTime(date);
+ /*   
+            obj.status = startDate.getDate() < currentDate.getDate();
+            if (obj.status) {
+                obj.message = gs.getMessage("Start date cannot be before today.");
+                return JSON.stringify(obj);
+            }
+*/
+
+            if (global.JSUtil.notNil(endDt)) {
+                var endDate = new GlideDateTime();
+                endDate.setValue(endDt);
+                obj.status = endDate.getDate() < startDate.getDate();
+
+                if (obj.status) {
+                    obj.message = gs.getMessage("Start date cannot be after the end date.");
+                    return JSON.stringify(obj);
+                }
+            }
+
+            var isValid = this.validateRecord(date, tableName);
+
+            obj.status = isValid.status;
+            if (obj.status) {
+                var message;
+                if (isValid.record.start_date != isValid.record.end_date) {
+                  message = gs.getMessage("Record already exists for the selected start date between {0} and {1}.",  [isValid.record.start_date, isValid.record.end_date]);
+                } else {
+                  message = gs.getMessage("Record already exists for the selected start date {0}", isValid.record.start_date);
+                }
+              
+                obj.message = message;
+                
+                return JSON.stringify(obj);
+              }
+              else {
+                return JSON.stringify(obj);
+            }
+        } catch (e) {
+            gs.error("TimeOffDateValidation start date error: " + e);
+            obj.status = true;
+            obj.message = gs.getMessage("There was an error. Please contact the system administrator.");
+            return JSON.stringify(obj);
+        }
+
+    },
+
+    validateRecord: function(date, tableName) {
+
+        var gr = new GlideRecord(tableName);
+        var query = "requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^statusINrequested,approved";
+
+        if (global.JSUtil.notNil(date))
+            query += "^start_date<=javascript:gs.dateGenerate('" + date + "','start')^end_date>=javascript:gs.dateGenerate('" + date + "','end')";
+
+        gr.addEncodedQuery(query);
+        gr.query();
+        if (gr.next())
+            return {
+                status: true,
+                record: gr
+            };
+        else
+            return {
+                status: false,
+                record: ""
+            };
+    },
+
+ loggedInUserDateformat: function(date, userID) {
+        var dateFormat = '';
+        userID = userID || gs.getUserID();
+        var userObj = new GlideRecord('sys_user');
+        if (userObj.get(userID)) {
+            dateFormat = userObj.getValue('date_format');
+        }
+        if (dateFormat == null || dateFormat == '') {
+            return date+' '+"00:00:00";
+        } else if (dateFormat.indexOf("MM-dd-yyyy") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('-');
+            date = formatDate[2] + "-" + formatDate[0] + "-" + formatDate[1] + ' ' + formatTime;
+            return date;
+        } else if (dateFormat.indexOf("dd-MM-yyyy") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('-');
+            date = formatDate[2] + "-" + formatDate[1] + "-" + formatDate[0] + ' ' + formatTime;
+            return date;
+
+        } else if (dateFormat.indexOf("yyyy-MM-dd") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('-');
+            date = formatDate[0] + "-" + formatDate[1] + "-" + formatDate[2] + ' ' + formatTime;
+            return date;
+        } else if (dateFormat.indexOf("dd/MM/yyyy") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('/');
+            date = formatDate[2] + "-" + formatDate[1] + "-" + formatDate[0] + ' ' + formatTime;
+            return date;
+        } else if (dateFormat.indexOf("dd.MM.yyyy") == "0") {
+            date = date.split(' ');
+            formatTime = date[1] || "00:00:00";
+            formatDate = date[0];
+            formatDate = formatDate.split('.');
+            date = formatDate[2] + "-" + formatDate[1] + "-" + formatDate[0] + ' ' + formatTime;
+            return date;
+        }
+    },
+
+
+
+ endDate: function() {
+        var obj = {
+            status: false,
+            message: ""
+        };
+        try {
+            var end_date = this.getParameter('sysparm_end');
+            var start_date = this.getParameter('sysparm_start') || new GlideDateTime();
+            var tableName = this.getParameter('sysparm_tableName');
+
+
+            var startGdt = new GlideDateTime(start_date);
+
+            var endGdt = new GlideDateTime(end_date);
+
+            var currentDate = new GlideDateTime();
+
+            obj.status = endGdt.getDate() < startGdt.getDate();
+			// || endGdt.getDate() < currentDate.getDate();
+
+            if (obj.status) {
+                obj.message = gs.getMessage("End date cannot be before today or the start date.");
+                return JSON.stringify(obj);
+            }
+        // ]]>👉<![CDATA[ 校验请假天数是否超过10天
+        var diffMillis = GlideDateTime.subtract(startGdt,endGdt).getNumericValue();
+        var diffDays = Math.floor(diffMillis / (1000 * 60 * 60 * 24)) + 1;
+        if (diffDays > 10) {
+            obj.status = true;
+            obj.message = gs.getMessage("Time off cannot exceed 10 days.");
+            return JSON.stringify(obj);
+        }
+            var isValid = this.validateRecord(end_date, tableName);
+
+            obj.status = isValid.status;
+            if (obj.status) {
+                var message;
+                if (isValid.record.start_date != isValid.record.end_date) {
+                  message = gs.getMessage("Record already exists for the selected end date between {0} and {1}", [isValid.record.start_date, isValid.record.end_date]);
+                } else {
+                  message = gs.getMessage("Record already exists for the selected end date {0}", isValid.record.start_date);
+                }
+              
+                obj.message = message;
+                
+                return JSON.stringify(obj);
+              }
+            else {
+                return JSON.stringify(obj);
+            }
+        } catch (e) {
+            gs.error("TimeOffDateValidation the end date error: " + e);
+            obj.status = true;
+            obj.message = gs.getMessage("There was an error. Please contact the system administrator.");
+            return JSON.stringify(obj);
+        }
+
+    },
+
+
+
+    type: 'TimeOffDateValidation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:36</sys_created_on>
+        <sys_id>7c254910ea41221097b1e1f917e49cb8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>TimeOffDateValidation</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_script_include_7c254910ea41221097b1e1f917e49cb8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 08:14:56</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>7c254910ea41221097b1e1f917e49cb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:54:05</sys_created_on>
+        <sys_id>fce9c9d483412210f980f1d6feaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:54:05</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

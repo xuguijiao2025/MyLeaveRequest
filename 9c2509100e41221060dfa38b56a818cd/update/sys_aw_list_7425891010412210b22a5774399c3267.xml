@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Time Off request">7025891082412210a87520b9c466fe68</category>
+        <columns>number,sys_created_on,requested_by,requested_by.department,requested_by.manager,date_submitted,status,active,times_submitted,start_date,end_date,time_off_reason,rejection_reason,comments,work_notes</columns>
+        <condition/>
+        <groups/>
+        <list_attributes/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7425891010412210b22a5774399c3267</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_aw_list_7425891010412210b22a5774399c3267</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:36</sys_updated_on>
+        <table>x_1642217_myleav_0_request</table>
+        <title>All</title>
+        <user/>
+        <workspace display_value="Time Off Request WS">bc25891074412210d0311c7cbd4b4c67</workspace>
+    </sys_aw_list>
+</record_update>

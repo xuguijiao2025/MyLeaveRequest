@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_1642217_myleav_0_request</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen/>
+        <item_view display_value="Request List Screen Item View">a8254910df412210a419883823291f8c</item_view>
+        <name>Request master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:48</sys_created_on>
+        <sys_id>2c254910d7412210b7c6a41a4edde39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request master_item</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_sg_master_item_2c254910d7412210b7c6a41a4edde39c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:48</sys_updated_on>
+        <use_view_config>false</use_view_config>
+        <view_config/>
+    </sys_sg_master_item>
+</record_update>

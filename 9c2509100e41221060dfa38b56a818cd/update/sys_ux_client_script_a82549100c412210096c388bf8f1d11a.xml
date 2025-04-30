@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="List">e42549102b412210a77e68d8a8ea4a35</macroponent>
+        <name>Record Modal</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[
+            function handler({
+        api,
+        event,
+        imports,
+        helpers
+    }) {
+    
+    const { name, payload: { route, fields, params, size = 'md' }} = event;
+    
+    if (name === 'LIST#CLOSE_MODAL')
+        helpers.modal.close();
+    
+    else if (name === 'LIST#OPEN_MODAL') {
+        if (!route)
+            return;
+        
+        api.setState('bare', true);
+        api.setState('displayOptions', { size: size });
+        api.setState('contents', {
+            route: route,
+            fields: fields,
+            params: params
+        });
+    }
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:29</sys_created_on>
+        <sys_id>a82549100c412210096c388bf8f1d11a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Modal</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_client_script_a82549100c412210096c388bf8f1d11a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:29</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

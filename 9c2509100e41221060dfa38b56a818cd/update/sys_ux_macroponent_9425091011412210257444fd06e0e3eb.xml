@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "empty_state_1",
+  "elementLabel" : "Empty state 1",
+  "propertyValues" : {
+    "illustration" : {
+      "type" : "JSON_LITERAL",
+      "value" : "unconfigured"
+    },
+    "heading" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "label" : "Page not found",
+        "level" : "3"
+      }
+    },
+    "content" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "actions" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "alignment" : {
+      "type" : "JSON_LITERAL",
+      "value" : "vertical-centered"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Content",
+  "definition" : {
+    "id" : "6f51fcc407363e5a52ac464315713ee9",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>d9f32aa20b2210108e64aabcb4673a61,69f32aa20b2210108e64aabcb4673a67,edf32aa20b2210108e64aabcb4673a72</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "028ded8ca4746010f877142a48a47a66"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckhbhhoiileeaaaaddjjddhiiccbudjcceerdd",
+    "type" : "CLIENT_SCRIPT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Content","rules":{"grid-area":"content","min-height":"50px"},"styles":{"display":"flex","margin-top":"50px"}}],
+    "root" : null,
+    "rules" : {"height":"100%","grid-template-rows":"100%","grid-template-columns":"1fr","grid-template-areas":"\"content\"","grid-gap":"1px"},
+    "styles" : null,
+    "templateId" : null,
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>404</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[{"message":"Page not found","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:50</sys_created_on>
+        <sys_id>9425091011412210257444fd06e0e3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>404</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_macroponent_9425091011412210257444fd06e0e3eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:50</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=9425091011412210257444fd06e0e3eb"/>
+</record_update>

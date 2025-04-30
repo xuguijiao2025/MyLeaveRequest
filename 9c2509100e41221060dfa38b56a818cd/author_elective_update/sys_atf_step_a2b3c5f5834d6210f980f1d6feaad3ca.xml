@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Click the component: 'Link &lt;a&gt;: PTO0001027', Page area: 'Screen content'</description>
+        <display_name>Click Component (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"f484828764024dbf73c8790b3fb98717":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Link &lt;a&gt;: PTO0001027\",\"inner_text\":\"PTO0001027\",\"sn_atf_mugshot_long_description\":\"Link &lt;a&gt;: PTO0001027\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"PTO0001027\",\"type\":\"\",\"version\":\"26.0\",\"sn_atf_mugshot_label_for_label_path\":\"\",\"interesting_element_path\":[\"body\",\"macroponent-f51912f4c700201072b211d4d8c26010\",\"sn-canvas-appshell-root\",\"sn-canvas-appshell-layout\",\"sn-polaris-layout\",\"sn-canvas-appshell-main\",\"sn-canvas-experience-shell\",\"macroponent-c276387cc331101080d6d3658940ddd2\",\"sn-canvas-chrome-state\",\"sn-canvas-root\",\"sn-canvas-layout\",\"sn-canvas-tabsdata\",\"sn-canvas-main\",\"sn-canvas-screen\",\"screen-action-transformer-2025491074412210fff37c19dd0eb15a\",\"macroponent-6c25491018412210983fe8c34e9df111\",\"now-uxf-page\",\"div\",\"now-uxf-page-simple-container\",\"now-uxf-page-simple-container\",\"div\",\"now-uxf-page-simple-container\",\"div\",\"now-uxf-page-simple-container\",\"div\",\"now-uxf-page-simple-container\",\"now-record-list-connected-snapshot\",\"now-record-list-snapshot\",\"now-grid\",\"table\",\"tbody\",\"tr\",\"td\",\"span\",\"a\"],\"get_value_result\":\"PTO0001027\",\"sn_atf_mugshot_tag_display_name\":\"Link &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"label_path\":[\"Screen content\"],\"hash\":\"f484828764024dbf73c8790b3fb98717\"}"}</mugshots_cache_json>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:18:37</sys_created_on>
+        <sys_id>a2b3c5f5834d6210f980f1d6feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_atf_step_a2b3c5f5834d6210f980f1d6feaad3ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:18:37</sys_updated_on>
+        <table/>
+        <test display_value="My New Test @home">9b9854bd83496210f980f1d6feaad387</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a2b3c5f5834d6210f980f1d6feaad3ca"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a2b3c5f5834d6210f980f1d6feaad3ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:18:37</sys_created_on>
+        <sys_id>c3d305f5834d6210f980f1d6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:18:37</sys_updated_on>
+        <value>f484828764024dbf73c8790b3fb98717</value>
+        <variable display_value="Component">ee05588b73730300c79260bdfaf6a749</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</application>
+        <file_path/>
+        <instance_id>755d98921bfef990fe1b43f4bd4bcbfd</instance_id>
+        <instance_name>dev230399</instance_name>
+        <name>sys_atf_step_a2b3c5f5834d6210f980f1d6feaad3ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Click the component: 'Link &lt;a&gt;: PTO0001027', Page area: 'Screen content'</description><display_name>Click Component (Custom UI)</display_name><inputs/><mugshots_cache_json>{"f484828764024dbf73c8790b3fb98717":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Link &lt;a&gt;: PTO0001027\",\"inner_text\":\"PTO0001027\",\"sn_atf_mugshot_long_description\":\"Link &lt;a&gt;: PTO0001027\",\"methods\":[\"click\"],\"sn_atf_mugshot_label\":\"PTO0001027\",\"type\":\"\",\"version\":\"26.0\",\"sn_atf_mugshot_label_for_label_path\":\"\",\"interesting_element_path\":[\"body\",\"macroponent-f51912f4c700201072b211d4d8c26010\",\"sn-canvas-appshell-root\",\"sn-canvas-appshell-layout\",\"sn-polaris-layout\",\"sn-canvas-appshell-main\",\"sn-canvas-experience-shell\",\"macroponent-c276387cc331101080d6d3658940ddd2\",\"sn-canvas-chrome-state\",\"sn-canvas-root\",\"sn-canvas-layout\",\"sn-canvas-tabsdata\",\"sn-canvas-main\",\"sn-canvas-screen\",\"screen-action-transformer-2025491074412210fff37c19dd0eb15a\",\"macroponent-6c25491018412210983fe8c34e9df111\",\"now-uxf-page\",\"div\",\"now-uxf-page-simple-container\",\"now-uxf-page-simple-container\",\"div\",\"now-uxf-page-simple-container\",\"div\",\"now-uxf-page-simple-container\",\"div\",\"now-uxf-page-simple-container\",\"now-record-list-connected-snapshot\",\"now-record-list-snapshot\",\"now-grid\",\"table\",\"tbody\",\"tr\",\"td\",\"span\",\"a\"],\"get_value_result\":\"PTO0001027\",\"sn_atf_mugshot_tag_display_name\":\"Link &lt;a&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"a\",\"isDisabled\":false,\"label_path\":[\"Screen content\"],\"hash\":\"f484828764024dbf73c8790b3fb98717\"}"}</mugshots_cache_json><notes/><order>7</order><step_config display_value="Click Component (Custom UI)">def25c4b73730300c79260bdfaf6a700</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 05:18:37</sys_created_on><sys_id>a2b3c5f5834d6210f980f1d6feaad3ca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Click Component (Custom UI)</sys_name><sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package><sys_policy/><sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope><sys_update_name>sys_atf_step_a2b3c5f5834d6210f980f1d6feaad3ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 05:18:37</sys_updated_on><table/><test display_value="My New Test @home">9b9854bd83496210f980f1d6feaad387</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a2b3c5f5834d6210f980f1d6feaad3ca"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a2b3c5f5834d6210f980f1d6feaad3ca</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 05:18:37</sys_created_on><sys_id>c3d305f5834d6210f980f1d6feaad3cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 05:18:37</sys_updated_on><value>f484828764024dbf73c8790b3fb98717</value><variable display_value="Component">ee05588b73730300c79260bdfaf6a749</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1412690102</payload_hash>
+        <record_name>Click Component (Custom UI)</record_name>
+        <reverted_from/>
+        <source>b145055083412210f980f1d6feaad3b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:18:37</sys_created_on>
+        <sys_id>0bd305f5834d6210f980f1d6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1965bef17a10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:18:37</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>0fd305f5974d6210a218df6a87d92dce</update_guid>
+        <update_guid_history>0fd305f5974d6210a218df6a87d92dce:1412690102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:18:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>2772ba0cb2ca411286ca62d6b3214fd1</sys_id>
+        <sys_metadata>a2b3c5f5834d6210f980f1d6feaad3ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click Component (Custom UI)</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_scope_delete display_value="">66c4c0d0562a4dd8a69435d3dba2bc40</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a2b3c5f5834d6210f980f1d6feaad3ca</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a2b3c5f5834d6210f980f1d6feaad3ca">0bd305f5834d6210f980f1d6feaad3cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:18:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

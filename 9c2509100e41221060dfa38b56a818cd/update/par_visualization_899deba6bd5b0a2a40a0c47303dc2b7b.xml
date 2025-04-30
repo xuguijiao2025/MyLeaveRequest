@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</macroponent>
+        <name>Time Off Requests</name>
+        <properties>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"chartColor"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"statusINapproved,rejected^sys_created_onONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()","id":"dGFibGV4XzE2NDIyMTdfbXlsZWF2XzBfcmVxdWVzdDE3NDUyNDY1MTg3NTU5MTU5NjM4Ni4wOTEyODA0OA==","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_1642217_myleav_0_request"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE2NDIyMTdfbXlsZWF2XzBfcmVxdWVzdDE3NDUyNDY1MTg3NTU5MTU5NjM4Ni4wOTEyODA0OA==","groupByField":"status","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"headerTitle":"Time Off Requests","hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzE2NDIyMTdfbXlsZWF2XzBfcmVxdWVzdDE3NDUyNDY1MTg3NTU5MTU5NjM4Ni4wOTEyODA0OA==","id":"ZEdGaWJHVjRYekUyTkRJeU1UZGZiWGxzWldGMlh6QmZjbVZ4ZFdWemRERTNORFV5TkRZMU1UZzNOVFU1TVRVNU5qTTROaTR3T1RFeU9EQTBPQT09MTc0NTI0NjUxODc1NjQ4MjUxNTY3LjAxMzY0NDc=","numberFormat":{"customFormat":false},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2.0,"period":"M","registerOrientation":"vertical","registerPosition":"right","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","truncationType":"start","wrapTitle":true}</properties>
+        <requested_by/>
+        <scheduled_count/>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>899deba6bd5b0a2a40a0c47303dc2b7b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Time Off Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>par_visualization_899deba6bd5b0a2a40a0c47303dc2b7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-21 14:41:59</sys_updated_on>
+        <type>Donut</type>
+    </par_visualization>
+</record_update>

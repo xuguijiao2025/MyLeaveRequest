@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart">
+    <sys_sg_chart action="INSERT_OR_UPDATE">
+        <data_visualization/>
+        <jump_to_screen display_value="Time Off Request (Donut) Navigation">e42549102041221040a378c27dcd36a1</jump_to_screen>
+        <name>Requests This Year</name>
+        <report display_value="Time Off Requests">b425491067412210425cecbc029211be</report>
+        <sys_class_name>sys_sg_chart</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:44</sys_created_on>
+        <sys_id>a4254910054122102be1858834605b9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requests This Year</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_sg_chart_a4254910054122102be1858834605b9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:44</sys_updated_on>
+        <title/>
+        <type>report</type>
+        <widget/>
+    </sys_sg_chart>
+</record_update>

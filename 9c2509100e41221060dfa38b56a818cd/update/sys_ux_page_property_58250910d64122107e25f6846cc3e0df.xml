@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description> &#13;
+&#13;
+added:       "viewportElementId": "wsCornerDialog"&#13;
+    },</description>
+        <name>chrome_toolbar</name>
+        <page display_value="MyLeaveRequest workspace">3025891036412210ba7d242d61b82e93</page>
+        <required_translations>[{"message":"Lists","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>58250910d64122107e25f6846cc3e0df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_page_property_58250910d64122107e25f6846cc3e0df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:43</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1642217_myleav_0.3025891036412210ba7d242d61b82e93.root.chrome_toolbar</unique_name>
+        <value>[&#13;
+  {&#13;
+    "id": "home",&#13;
+   "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Home"&#13;
+                },&#13;
+    "icon": "home-outline",&#13;
+    "viewportInfo": {},&#13;
+    "routeInfo": {&#13;
+      "route": "home"&#13;
+    },&#13;
+    "group": "top",&#13;
+    "badge": {},&#13;
+    "presence": {},&#13;
+    "availability": {}&#13;
+  },&#13;
+  {&#13;
+    "id": "list",&#13;
+    "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Lists"&#13;
+                },&#13;
+    "icon": "list-outline",&#13;
+    "viewportInfo": {},&#13;
+    "routeInfo": {&#13;
+      "route": "list"&#13;
+    },&#13;
+    "group": "top",&#13;
+    "badge": {},&#13;
+    "presence": {},&#13;
+    "availability": {}&#13;
+  }&#13;
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=58250910d64122107e25f6846cc3e0df"/>
+</record_update>

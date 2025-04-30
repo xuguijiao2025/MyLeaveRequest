@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Insert a record into 'x_1642217_myleav_0_request' with the following values:
+Requested by = {{Step 1: Create a User.User.First name}}
+and Start date = 2025-05-01
+and End date = 2025-05-05
+and Reason (Optional) = Design Holiday
+and Status = Draft
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Auto Create a design holiday request</notes>
+        <order>3</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 23:55:17</sys_created_on>
+        <sys_id>0b0977a583c56210f980f1d6feaad3e1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_atf_step_0b0977a583c56210f980f1d6feaad3e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 02:41:45</sys_updated_on>
+        <table>x_1642217_myleav_0_request</table>
+        <test display_value="Automatically Create Leave Request">a92873ed83816210f980f1d6feaad319</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=0b0977a583c56210f980f1d6feaad3e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0b0977a583c56210f980f1d6feaad3e1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 23:55:17</sys_created_on>
+        <sys_id>36d9f7e583c56210f980f1d6feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-21 23:55:17</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0b0977a583c56210f980f1d6feaad3e1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 23:55:17</sys_created_on>
+        <sys_id>7ed9f7e583c56210f980f1d6feaad3b9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 02:41:45</sys_updated_on>
+        <value>requested_by={{step['acd5587583496210f980f1d6feaad34a'].user.first_name}}^start_date=2025-05-01^end_date=2025-05-05^time_off_reason=Design Holiday^status=draft^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0b0977a583c56210f980f1d6feaad3e1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 23:55:17</sys_created_on>
+        <sys_id>bad9f7e583c56210f980f1d6feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-21 23:55:17</sys_updated_on>
+        <value>x_1642217_myleav_0_request</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0b0977a583c56210f980f1d6feaad3e1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 23:55:17</sys_created_on>
+        <sys_id>f6d9f7e583c56210f980f1d6feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-21 23:55:17</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0b0977a583c56210f980f1d6feaad3e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>0b0977a583c56210f980f1d6feaad3e1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 23:55:17</sys_created_on>
+        <sys_id>fed9f7e583c56210f980f1d6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-21 23:55:17</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>0b0977a583c56210f980f1d6feaad3e1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-21 23:55:17</sys_created_on>
+        <sys_id>b2d9f7e583c56210f980f1d6feaad3b9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 02:41:45</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>requested_by={{step['acd5587583496210f980f1d6feaad34a'].user.first_name}}^start_date=2025-05-01^end_date=2025-05-05^time_off_reason=Design Holiday^status=draft^EQ</value>
+    </sys_element_mapping>
+</record_update>

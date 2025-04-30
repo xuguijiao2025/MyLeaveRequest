@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Time off ws </name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f82589107341221065da982806a82a79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time off ws</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_theme_f82589107341221065da982806a82a79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:45</sys_updated_on>
+        <theme>{&#13;
+  "--now-font-family": "Roboto, sans-serif",&#13;
+  "--now-button--border-radius": "25px",&#13;
+  "--now-button--primary--background-color": "0,48,89",&#13;
+  "--now-button--primary--border-color": "0,48,89",&#13;
+  "--now-button--primary--background-color--hover": "0, 28, 52",&#13;
+  "--now-button--secondary--background-color": "255,255,255",&#13;
+  "--now-button--secondary--border-color": "0,48,89",&#13;
+  "--now-button--secondary--border-color--hover": "2px",&#13;
+  "--now-button--secondary--background-color--hover": "255,255,255",&#13;
+  "--now-color--neutral-4": "160,160,160",&#13;
+  "--now-color--neutral-5": "160,160,160",&#13;
+  "--now-color--secondary-1": "0,48,89",&#13;
+  "--now-color--primary-0": "209,217,223",&#13;
+  "--now-color--primary-1": "0,48,89",&#13;
+  "--now-color--primary-2": "0,48,89",&#13;
+  "--now-canvas-header-container-ws--background-color": "0,48,89",&#13;
+  "--now-tabs--background-color": "255,255,255",&#13;
+  "--now-tabs--border-color": "0,0,0",&#13;
+  "--now-color--neutral-2": "246,247,247",&#13;
+  "canvas-toolbar--background-color": "234,226,240",&#13;
+  "canvas-toolbar-button--background-color--focus": "0,48,89",&#13;
+  "canvas-toolbar-button--background-color": "0,48,89",&#13;
+  "now-color--neutral-7": "160,160,160",&#13;
+  "--now-tabs--border-left-radius": "0px",&#13;
+  "now-color--primary-1": "0,0,0",&#13;
+  "--now-split-button_divider--width": "0px",&#13;
+  "sn-filter-panel-button-md--border-color": "255,255,255",&#13;
+  "--now-color--secondary-0": "209,217,223",&#13;
+  "--now-heading--header-primary--font-family": "Cabin",&#13;
+      "--now-heading--header-primary--font-weight": "700",&#13;
+  "--now-color--neutral-1": "255,255,255",&#13;
+  "--now-canvas-nav-item--default--color": "--now-color--neutral-4",&#13;
+  "--now-canvas-nav-item--default--color--hover": "--now-color--neutral-4",&#13;
+  "--now-canvas-nav-item--default--color--active": "--now-color--neutral-4",&#13;
+  "--now-canvas-notification-tray--background-color": "--now-color--neutral-15",&#13;
+  "--now-canvas-notification-tray-card--background-color": "--now-color--neutral-15",&#13;
+  "--now-canvas-notification-tray-card--background-color--active": "--now-color--primary-1",&#13;
+  "--now-canvas-notification-tray-card--background-color--hover": "--now-color--primary-1",&#13;
+  "--now-canvas-notification-tray-card--background-color--opacity--hover": "0.5",&#13;
+  "--now-canvas-notification-tray-card-header--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-card-header-icon--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-card-body--color": "--now-color--neutral-3",&#13;
+  "--now-canvas-notification-tray-card-footer--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-item-close-btn--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-section-heading-label--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-section-heading-btn--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-section-heading-btn--color--active": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-section-heading-btn--color--hover": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-toast-body--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-toast-header--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-toast--background-color": "--now-color--neutral-15",&#13;
+  "--now-canvas-notification-toast--background-color--active": "--now-color--primary-1",&#13;
+  "--now-canvas-notification-toast--background-color--hover": "--now-color--primary-1",&#13;
+  "--now-canvas-notification-toast--background-color--opacity--hover": "1",&#13;
+  "--now-canvas-notification-toast-icon--color": "--now-color--neutral-0",&#13;
+  "--now-canvas-notification-tray-empty-message--color": "--now-color--neutral-3",&#13;
+  "--now-canvas-notification-tray-empty-submessage--color": "--now-color--neutral-3",&#13;
+  "--now-dragdrop_badge--font-family": "--now-font-family",&#13;
+  "--now-dragdrop_badge--border-color": "--now-color--neutral-0",&#13;
+  "--now-dragdrop_badge--color": "--now-color--neutral-0",&#13;
+  "--now-dragdrop_badge--background-color": "--now-color_alert--info-2",&#13;
+  "--now-dragdrop_ghost--background-color": "--now-color--neutral-0",&#13;
+  "--now-line-height-crop--before": "-0.2125em",&#13;
+  "--now-line-height-crop--after": "-0.275em",&#13;
+    "--now-badge--secondary_low--background-color": "217,217,217",&#13;
+    "--now-color_text--tertiary":"66,80,81"&#13;
+&#13;
+    &#13;
+}</theme>
+    </sys_ux_theme>
+</record_update>

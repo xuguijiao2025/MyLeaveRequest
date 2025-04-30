@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type/>
+        <description>Allow write for start_date in x_snc_time_off_request, for users with role x_snc_time_off.employee, and if the ACL script returns true.</description>
+        <local_or_existing/>
+        <name>x_1642217_myleav_0_request.start_date</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[if((current.requested_by == gs.getUserID() || current.sys_created_by == gs.getUserID()) && current.active == true)
+	answer = true;
+else
+	answer = false;]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:34</sys_created_on>
+        <sys_id>742549103a4122105be23de3866a7cb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1642217_myleav_0_request.start_date</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_security_acl_742549103a4122105be23de3866a7cb2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:34</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

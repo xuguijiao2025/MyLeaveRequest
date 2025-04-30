@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_workspace_content">
+    <sys_notification_workspace_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <is_default>false</is_default>
+        <name>TO</name>
+        <notification display_value="Time off Submitted">30258910bd412210f74dcc6a3d136e01</notification>
+        <route display_value="Time Off Request WS">782589102941221046621425a934df6f</route>
+        <sys_class_name>sys_notification_workspace_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:35</sys_created_on>
+        <sys_id>b4254910c74122106bfa92446ddc8fff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TO</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_notification_workspace_content_b4254910c74122106bfa92446ddc8fff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:35</sys_updated_on>
+    </sys_notification_workspace_content>
+</record_update>

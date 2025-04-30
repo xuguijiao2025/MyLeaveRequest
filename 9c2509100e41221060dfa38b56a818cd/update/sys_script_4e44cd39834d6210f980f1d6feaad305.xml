@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1642217_myleav_0_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set Approval Date &amp; Notify</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// 检查状态是否从非 Approved 更新为 Approved
+    if (current.status == '3' && previous.status != '3') {
+
+        // 设置批准日期为当前时间
+        current.approval_date = new GlideDateTime();
+
+        // 发送通知（系统日志代替，可改为事件或通知 API）
+        var user = current.requested_by.name;
+        gs.info('Time Off Request for ' + user + ' has been Approved.');
+
+        // 你可以触发事件，如：
+        // gs.eventQueue("time_off.approved", current, current.sys_id, user);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:52:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e44cd39834d6210f980f1d6feaad305</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Approval Date &amp; Notify</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_script_4e44cd39834d6210f980f1d6feaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 06:49:45</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e44cd39834d6210f980f1d6feaad305"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>4e44cd39834d6210f980f1d6feaad305</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 05:52:35</sys_created_on>
+        <sys_id>e8abc531838d6210f980f1d6feaad350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:52:35</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

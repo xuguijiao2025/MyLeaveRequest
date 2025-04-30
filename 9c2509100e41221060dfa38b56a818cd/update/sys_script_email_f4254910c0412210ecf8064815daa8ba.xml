@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_1642217_myleav_0.to.review</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var link = current.getLink();
+    template.print('<font face="tahoma">');
+
+    var button_color = gs.getProperty("x_1642217_myleav_0.u_button_bgcolor");
+	var timeOff = new TimeOffSNC;
+	var checkHex = timeOff.checkHex(button_color);
+	if(!button_color || !checkHex){
+		button_color = '#01778E';
+	}
+    var color = 'color: #ffffff;';
+    var fontSize = 'font-size: 12pt;';
+    // 	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+    var textDecoration = 'text-decoration: none;';
+    // 	var webKitBorder = '-webkit-border-radius: 0px;';
+    // 	var mozBorder = '-moz-border-radius: 0px;';
+    // 	var display = 'display: inline-block;';
+    // 	var padding = 'padding: 13px 65px;';
+
+    var companyCode = gs.getProperty("glide.appcreator.company.code");
+    if (companyCode == "snc" || companyCode == "sn" || companyCode == "now") {
+        companyCode = "now";
+    } else {
+        companyCode = "x/" + companyCode;
+    }
+    template.print('<table style=" height: 32px;" role="presentation" border="0" width="126" cellspacing="0" cellpadding="0">');
+    template.print('<tbody>');
+    template.print('<tr>');
+    template.print('<td style="background-color:' + button_color + ';border-radius: 4px; width: 230px; text-align: center; height: 45px;"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><a class="button-a button-a-primary" style="font-size: 11pt; line-height: 15px; text-decoration: none; border-radius: 4px;">');
+    template.print('<a href="' + gs.getProperty('glide.servlet.uri') + companyCode + '/x_1642217_myleav_0/workspace/record/' + current.sys_class_name + '/' + current.sys_id + '"');
+
+    template.print('style="' + color + fontSize + textDecoration);
+    template.print('">');
+    template.print(gs.getMessage('Review request'));
+    template.print('</a>');
+    template.print('</font>');
+    template.print('</a></span></td>');
+    template.print('</tr>');
+    template.print('</tbody>');
+    template.print('</table');
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:41</sys_created_on>
+        <sys_id>f4254910c0412210ecf8064815daa8ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1642217_myleav_0.to.review</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_script_email_f4254910c0412210ecf8064815daa8ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:41</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>No related lists selected</description>
+        <display_name>Validate Related List Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Validate Related List Visibility">8b84e5e837b1030064a52f3c8e41f170</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 03:46:27</sys_created_on>
+        <sys_id>509e2cb983c96210f980f1d6feaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Related List Visibility</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_atf_step_509e2cb983c96210f980f1d6feaad3f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 03:46:27</sys_updated_on>
+        <table>x_1642217_myleav_0_request</table>
+        <test display_value="My New Test @home">9b9854bd83496210f980f1d6feaad387</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=509e2cb983c96210f980f1d6feaad3f1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>509e2cb983c96210f980f1d6feaad3f1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 03:46:27</sys_created_on>
+        <sys_id>01ce243d83c96210f980f1d6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 03:46:27</sys_updated_on>
+        <value/>
+        <variable display_value="Visible">820ec4e93735030064a52f3c8e41f1a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>509e2cb983c96210f980f1d6feaad3f1</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 03:46:27</sys_created_on>
+        <sys_id>09ce243d83c96210f980f1d6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 03:46:27</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">2bf688e637310300b8a62f3c8e41f1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>509e2cb983c96210f980f1d6feaad3f1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 03:46:27</sys_created_on>
+        <sys_id>c9ce243d83c96210f980f1d6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 03:46:27</sys_updated_on>
+        <value>x_1642217_myleav_0_request</value>
+        <variable display_value="Table">2c77697437f1030064a52f3c8e41f15a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_8b84e5e837b1030064a52f3c8e41f170^id=509e2cb983c96210f980f1d6feaad3f1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</application>
+        <file_path/>
+        <instance_id>755d98921bfef990fe1b43f4bd4bcbfd</instance_id>
+        <instance_name>dev230399</instance_name>
+        <name>sys_atf_step_509e2cb983c96210f980f1d6feaad3f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>No related lists selected</description><display_name>Validate Related List Visibility</display_name><inputs/><mugshots_cache_json/><notes/><order>5</order><step_config display_value="Validate Related List Visibility">8b84e5e837b1030064a52f3c8e41f170</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 03:46:27</sys_created_on><sys_id>509e2cb983c96210f980f1d6feaad3f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Validate Related List Visibility</sys_name><sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package><sys_policy/><sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope><sys_update_name>sys_atf_step_509e2cb983c96210f980f1d6feaad3f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 03:46:27</sys_updated_on><table>x_1642217_myleav_0_request</table><test display_value="My New Test @home">9b9854bd83496210f980f1d6feaad387</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=509e2cb983c96210f980f1d6feaad3f1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>509e2cb983c96210f980f1d6feaad3f1</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 03:46:27</sys_created_on><sys_id>01ce243d83c96210f980f1d6feaad3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 03:46:27</sys_updated_on><value/><variable display_value="Visible">820ec4e93735030064a52f3c8e41f1a4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>509e2cb983c96210f980f1d6feaad3f1</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 03:46:27</sys_created_on><sys_id>09ce243d83c96210f980f1d6feaad3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 03:46:27</sys_updated_on><value/><variable display_value="Not visible">2bf688e637310300b8a62f3c8e41f1d0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>509e2cb983c96210f980f1d6feaad3f1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-22 03:46:27</sys_created_on><sys_id>c9ce243d83c96210f980f1d6feaad3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-22 03:46:27</sys_updated_on><value>x_1642217_myleav_0_request</value><variable display_value="Table">2c77697437f1030064a52f3c8e41f15a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_8b84e5e837b1030064a52f3c8e41f170^id=509e2cb983c96210f980f1d6feaad3f1"/></record_update>]]></payload>
+        <payload_hash>1135107999</payload_hash>
+        <record_name>Validate Related List Visibility</record_name>
+        <reverted_from/>
+        <source>b145055083412210f980f1d6feaad3b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 03:46:27</sys_created_on>
+        <sys_id>89ce243d83c96210f980f1d6feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1965b9ab59a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 03:46:27</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>8dce243d99c9621062e447859140b6af</update_guid>
+        <update_guid_history>8dce243d99c9621062e447859140b6af:1135107999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 03:47:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>666893586a174850abfc850977c11900</sys_id>
+        <sys_metadata>509e2cb983c96210f980f1d6feaad3f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Related List Visibility</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_scope_delete display_value="">66c4c0d0562a4dd8a69435d3dba2bc40</sys_scope_delete>
+        <sys_update_name>sys_atf_step_509e2cb983c96210f980f1d6feaad3f1</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_509e2cb983c96210f980f1d6feaad3f1">89ce243d83c96210f980f1d6feaad3b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 03:47:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

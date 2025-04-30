@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format/>
+        <height/>
+        <image>f0258910f7412210f00db86144e43488</image>
+        <name>x_1642217_myleav_0.time_off_empty.svg</name>
+        <size_bytes>3802</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:47</sys_created_on>
+        <sys_id>3c2589109b41221086343a75f5fc7a88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1642217_myleav_0.time_off_empty.svg</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>db_image_3c2589109b41221086343a75f5fc7a88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:47</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>e9f4aceae7e4f58374cbd6ab0b9cf2f4794b2b99fdb1e00d1b6762c2f3987ef0</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>3802</size_bytes>
+        <size_compressed>945</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:47</sys_created_on>
+        <sys_id>f0258910f7412210f00db86144e43488</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:47</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>3c2589109b41221086343a75f5fc7a88</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="f0258910f7412210f00db86144e43488">f0258910f7412210f00db86144e43488</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:47</sys_created_on>
+        <sys_id>b4258910fa412210cc5abbfb42ac3688</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>xZdNj+I4EIb/SpS5Jsbl+rDNDCPtnuayp73tjUmHJloGEB018O+3TD6gYVlNS7N0I7Up7NhP3iqXXV9eXp+zw4/V+mWWL9t2O51M9vu92aPZ7J4nzlo70RF5tm+e2uUs5yBGIEKeLevmednOcvJiwHvMs9em3v++Ocxym9lsGJiN/V+/bOftMnua5X8QoXFOuEAC4yHw3JEJ0YViaK1+oAA0KN4VaIJggdZEsDy2pzGlIaaSjSMnlS3BGySOBZDBUCIYsl4KdAYgjPZcbavji6HtVtN5vbArnNNnUx8DxrHtifRlOLiSjBPvK13OY0gTdEv4tLAVkNEeEPRhb1xELHWEtjH1oI5IUJEDdSNRXo219G1QqCpVA45EhS1VGwGKJSingo62ttb/SS4aQQejpsWNyn/l2Ut7XNWzfNGsVtNP4qvvi3k+Uc9sVsfnzTrbbpp1q5GgL6d+iJkYAsocByMkmRODFjLUNyAYLUvqjmHk5XNXq9VP6ZNW29VVmx3SKjqvtTHPjsnQ6ayMkYZsApM7B5rqJwB4d9aq2VWrOqvSxBp86lifZ1WamZPSjvNsp4ZVNk5rvplmsVh8fml3m7/rYcreLH80bb1bNdpMwQ4/nhinzhoRx96DeMDA20PiWDXrOjvAJcVRLa9utlHXPbg3XWpF0fgGeIu03qzrEUkDpib7E0gaG6jvGgIHZInuP5HIskY8/RsSpc0A/AgmUI8IWeiYzs5KUKCbgmNyeoI69/3vUETWUEzhdwtFwoaIHw8FHI1u49hBoQ8GJGKvlKbZ4GLHhGINO3EPYMKouZdTECUmIM2oMfRRTuBSNuAOCjRPEbN/hPfOC98IdQH8WKXOHroR6sKxjxXKpfMyBOygAhuWpMUpH2hCjnr69kxWUzWEX4HE6gzVX88r8IFEkT5vtvOqaY9Tq555G12koyn0+QqjnnTWQ+9I1vMvJuuUsPRNLIf4cMIzxbWCF/Afp+CFG28UvPD+ByoIeoy6KH0MQnBGOPSEoFcYpOB6CaMzen7/klT7HkJyQa95vidE3VMEQfocp+nfh9hHIUI0UeSDNTxT3Gp4pv9IDc+evNXwHAEPIfy5a6MqKhavUvInvwjfQ3W6QI+lDep2Qy5A8wJ67isbLPrmXl3T/XtvRePfU9H81lUyrhjagUUv2vqnX6K5X9H4uxUNXVU04aqi8amiwfitV2aoaPimoqGrigbT2RVHJYtrae+XM6lk/foPKB9QI9oOAAA=</data>
+        <length>1248</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="f0258910f7412210f00db86144e43488">f0258910f7412210f00db86144e43488</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:47</sys_created_on>
+        <sys_id>b42589109241221014c86979df35947b</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>e75113c0c3302010de10a0f89d40dd0e</includes>
+        <macroponent display_value="Simple List">2c254910eb4122107816798c62cbca1b</macroponent>
+        <name>simpleListUserPrefState</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    // event name
+    const eventName = event.name;
+    
+    // import the getUserPreference method from userPreferenceUtils script includes
+    const {
+        getUserPreference
+    } = imports["sn_uib_base_aw.userPreferenceUtils"](api.context.props.userPrefs);
+
+    /**
+     * setWrapListText - toggle the srap list text behavior
+     */
+    const setWrapListText = () => {
+        // show preference name constant
+        const WRAP_LIST_TEXT_PREF_NAME = "workspace.wrapListText";
+
+        // fetch the user's wrap list text preference value
+        const pref = getUserPreference(WRAP_LIST_TEXT_PREF_NAME);
+
+        api.setState('wrapListText', pref);
+    };
+
+    // handle the wrap list text collapsed state based on the macroponent ready & 
+    // macroponent property change events
+    switch(eventName) {
+        case 'MACROPONENT_READY':
+            setWrapListText();
+            break;
+
+        case 'MACROPONENT_PROPERTY_CHANGED':
+            if(event.payload.name === 'userPrefs') 
+                setWrapListText();    
+
+            break;
+
+        default:
+            break;
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:46</sys_created_on>
+        <sys_id>a825491086412210630ba9e20dffdf14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>simpleListUserPrefState</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_client_script_a825491086412210630ba9e20dffdf14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:46</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

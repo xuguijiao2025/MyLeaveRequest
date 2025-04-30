@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>actionConfigId</name>
+        <page display_value="MyLeaveRequest workspace">3025891036412210ba7d242d61b82e93</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Record">ec2549101b412210d0a60b6c32568121</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>dc250910aa412210021199c523428ae2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>actionConfigId</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_page_property_dc250910aa412210021199c523428ae2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:49</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1642217_myleav_0.3025891036412210ba7d242d61b82e93.route.actionConfigId.ec2549101b412210d0a60b6c32568121</unique_name>
+        <value>a02549105c412210f3d0cd77fae55c37</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc250910aa412210021199c523428ae2"/>
+</record_update>

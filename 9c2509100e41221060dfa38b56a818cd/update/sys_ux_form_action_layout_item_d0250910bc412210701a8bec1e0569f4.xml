@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Approve">d825091076412210560e56deb3c0f2f5</action>
+        <active>true</active>
+        <color>primary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Approve</label>
+        <layout_group/>
+        <name>approve</name>
+        <order>10</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:39</sys_created_on>
+        <sys_id>d0250910bc412210701a8bec1e0569f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_d0250910bc412210701a8bec1e0569f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:39</sys_updated_on>
+        <table>global</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

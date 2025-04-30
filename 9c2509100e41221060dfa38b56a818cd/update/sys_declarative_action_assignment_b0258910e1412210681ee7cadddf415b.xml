@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action display_value="Edit">eace385453103300099addeeff7b122d</action>
+        <action_attributes>{"hideEmptyStateImage":"false","recordSelectedView":"","hideHeader":"false","maxColumns":"5","recordSelectedQuery":"","hideLastRefreshedText":"false","hideFilterPanel":"false","columns":"","hideHighlightedValues":"false","refreshRequested":"","hideTitle":"false","actionConfigId":"","selectedListId":"Select...","headerSize":"lg","recordSelectedSysId":"","hideListSharing":"true","hidePages":"false","headingLevel":"1","tiny":"","hideTitleRowCount":"false","hideDeclarativeActions":"false","hideColumnResizing":"false","hideColumnGrouping":"false","hideRefreshButton":"false","listTitle":"All Active Tasks","hideLimitSelector":"false","hideFirstPage":"false","hideColumnFiltering":"false","hidePagination":"false","maxCharLimit":"4000","daClientActionContract":"","listMenuOpen":"true","hideLastPage":"false","query":"active=true","hideCellFilter":"false","wordWrap":"false","highlightedValueConfigId":"","hideRange":"false","hideRowCount":"false","recordSelectedTable":"","hideQuickEdit":"false","error":"{}","selectedRecords":"[]","menuSelection":"Select menu to connect...","hideRowSelector":"false","page":"1","hideColumnSorting":"false","limit":"20","hideMenuButton":"false","isRefList":"false","table":"task","view":""}</action_attributes>
+        <action_name>Accept</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action display_value="Edit">3c258910c6412210722f01ca5b40fb5a</client_action>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script/>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>uxf_client_action</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <dynamic_record_condition/>
+        <dynamic_script_condition/>
+        <enable_dynamic_evaluation>false</enable_dynamic_evaluation>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position/>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>Accept</label>
+        <model display_value="UXF">607c997b73210010fd843c78caf6a752</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <required_translations/>
+        <required_user_role_names/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <scripted_client_condition/>
+        <server_script/>
+        <specificity>11</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0258910e1412210681ee7cadddf415b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accept</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_b0258910e1412210681ee7cadddf415b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:25</sys_updated_on>
+        <table>x_1642217_myleav_0_request</table>
+        <tooltip/>
+        <ui_component display_value="now-record-list-connected">82541e85ccbad7292234b6ac83558183</ui_component>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=b0258910e1412210681ee7cadddf415b"/>
+</record_update>

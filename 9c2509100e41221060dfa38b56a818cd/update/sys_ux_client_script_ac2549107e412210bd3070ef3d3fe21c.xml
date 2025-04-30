@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Admin dashboard">60254910e2412210a7dcdb98e358031d</macroponent>
+        <name>Translate YTD</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "in {0} Days",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[
+            /**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+async function handler({api, event, helpers, imports}) {
+  var now = new Date();
+    
+        var start = new Date(now.getFullYear(), 0, 0);
+        var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+        var oneDay = 1000 * 60 * 60 * 24;
+        var day = Math.floor(diff / oneDay);
+        var x = await helpers.translate('in {0} Days', day);
+        api.setState("ytd",x);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:51</sys_created_on>
+        <sys_id>ac2549107e412210bd3070ef3d3fe21c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Translate YTD</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_client_script_ac2549107e412210bd3070ef3d3fe21c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:51</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

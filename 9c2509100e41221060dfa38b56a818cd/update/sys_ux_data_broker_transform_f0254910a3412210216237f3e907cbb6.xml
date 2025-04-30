@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1642217_myleav_0.Admin Dashboard Transform</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Admin Dashboard Transform</name>
+        <output_schema/>
+        <private>false</private>
+        <props/>
+        <required_translations>[]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform() {
+    function getAwaitingApprovalText() {
+        var count;
+        var total;
+
+        var aggTimeOffRequested = new GlideAggregate('x_1642217_myleav_0_request');
+        aggTimeOffRequested.addQuery('status', '=', 'requested');
+        aggTimeOffRequested.addAggregate('COUNT');
+        aggTimeOffRequested.query();
+
+        while (aggTimeOffRequested.next()) {
+            count = aggTimeOffRequested.getAggregate('COUNT');
+        }
+
+        var aggTimeOffAll = new GlideAggregate('x_1642217_myleav_0_request');
+        aggTimeOffAll.addAggregate('COUNT');
+        aggTimeOffAll.query();
+
+        while (aggTimeOffAll.next()) {
+            total = aggTimeOffAll.getAggregate('COUNT');
+        }
+
+        var percent = Math.round(count / total * 100);
+        return gs.getMessage("{0}% of requests awaiting approval", percent);
+    }
+
+    function getYTDText() {
+        var now = new Date();
+        var start = new Date(now.getFullYear(), 0, 0);
+        var diff = (now - start) + ((start.getTimezoneOffset() - now.getTimezoneOffset()) * 60 * 1000);
+        var oneDay = 1000 * 60 * 60 * 24;
+        var day = Math.floor(diff / oneDay);
+        return gs.getMessage('in {0} Days', day);
+    }
+	
+	function getTotalDays(){
+		var approval;
+		var rejected;
+
+        var aggTimeOffApproved = new GlideAggregate('x_1642217_myleav_0_request');
+        aggTimeOffApproved.addQuery('status', '=', 'approved');
+        aggTimeOffApproved.addAggregate('COUNT');
+        aggTimeOffApproved.query();
+		
+		while (aggTimeOffApproved.next()) {
+		approval = aggTimeOffApproved.getAggregate('COUNT');
+        }
+		
+		var aggTimeOffRejected = new GlideAggregate('x_1642217_myleav_0_request');
+        aggTimeOffRejected.addQuery('status', '=', 'rejected');
+        aggTimeOffRejected.addAggregate('COUNT');
+        aggTimeOffRejected.query();
+		
+		while (aggTimeOffRejected.next()) {
+		rejected = aggTimeOffRejected.getAggregate('COUNT');
+        }
+		
+		var z = (parseInt(approval) + parseInt(rejected));
+		return gs.getMessage("of {0}", z);
+    
+	}
+
+    return {
+        awaitingApproval: getAwaitingApprovalText(),
+        ytd: getYTDText(),
+		totalDays: getTotalDays()
+    };
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:49</sys_created_on>
+        <sys_id>f0254910a3412210216237f3e907cbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Dashboard Transform</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_f0254910a3412210216237f3e907cbb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:49</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=f0254910a3412210216237f3e907cbb6"/>
+</record_update>

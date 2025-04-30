@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Time Off Workspace</application>
+        <code/>
+        <commented_message/>
+        <key>approvals by status</key>
+        <language>x_snc_time_off.es</language>
+        <message>aprobaciones por estado</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:45</sys_created_on>
+        <sys_id>a0254910e2412210c7ba941817c55943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approvals by status</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ui_message_a0254910e2412210c7ba941817c55943</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:45</sys_updated_on>
+    </sys_ui_message>
+</record_update>

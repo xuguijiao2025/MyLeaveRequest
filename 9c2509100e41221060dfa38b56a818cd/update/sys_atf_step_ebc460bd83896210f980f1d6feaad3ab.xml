@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Navigate to the 'Time Off Workspace' module in the 'MyLeaveRequest' application</description>
+        <display_name>Navigate to Module</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 03:03:25</sys_created_on>
+        <sys_id>ebc460bd83896210f980f1d6feaad3ab</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_atf_step_ebc460bd83896210f980f1d6feaad3ab</sys_update_name>
+        <sys_updated_by>Manager001</sys_updated_by>
+        <sys_updated_on>2025-04-22 05:20:41</sys_updated_on>
+        <table/>
+        <test display_value="My New Test @home">9b9854bd83496210f980f1d6feaad387</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ebc460bd83896210f980f1d6feaad3ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ebc460bd83896210f980f1d6feaad3ab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 03:03:25</sys_created_on>
+        <sys_id>e6e42c7d83896210f980f1d6feaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-22 03:03:25</sys_updated_on>
+        <value>782589107a412210c864e8e292d88a69</value>
+        <variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=ebc460bd83896210f980f1d6feaad3ab"/>
+</record_update>

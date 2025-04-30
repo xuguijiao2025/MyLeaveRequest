@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="6425491066412210a59b48a21ce76a3a" sys_domain="global" table="x_1642217_myleav_0_request" version="3" view="new_x_1642217_myleav_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_id>242549100e412210f4e74a14adf03a3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="ac254910494122108a9f0223270d553a">6425491066412210a59b48a21ce76a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_id>a8254910bb412210d9725c16f1827f3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="ac254910494122108a9f0223270d553a">6425491066412210a59b48a21ce76a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_id>a02549106b412210bb1b834b79f4033a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="ac254910494122108a9f0223270d553a">6425491066412210a59b48a21ce76a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_id>e8254910d9412210e6af5408372cd73a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="ac254910494122108a9f0223270d553a">6425491066412210a59b48a21ce76a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_id>602549109841221017c7e5551fabf93b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="ac254910494122108a9f0223270d553a">6425491066412210a59b48a21ce76a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_id>e4254910b3412210abaeda146162623b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="ac254910494122108a9f0223270d553a">6425491066412210a59b48a21ce76a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_id>6c25491085412210bdf6f4e83159763b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="ac254910494122108a9f0223270d553a">6425491066412210a59b48a21ce76a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_off_reason</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_id>e025491041412210a2fa6798faef1a39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1642217_myleav_0_request" sys_domain="global" view="ac254910494122108a9f0223270d553a">6425491066412210a59b48a21ce76a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1642217_myleav_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 13:33:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6425491066412210a59b48a21ce76a3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1642217_myleav_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+            <sys_update_name>sys_ui_section_6425491066412210a59b48a21ce76a3a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 13:33:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New (x_1642217_myleav_0)" name="new_x_1642217_myleav_0">ac254910494122108a9f0223270d553a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

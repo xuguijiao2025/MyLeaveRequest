@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_1642217_myleav_0.copy_right</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    //var color = 'color:  rgb(var(--now-color--neutral-0));';
+    //var font_size = 'font-size:var(--now-global-font-size--sm)';
+    var color = 'color: #454D5B ;';
+    var font_size = 'font-size:12px';
+    var copy_right = gs.getProperty("x_1642217_myleav_0.u_copy_right");
+    if (!copy_right) {
+        copy_right = "&copy; 2023 NBA Media Ventures, LLC. All rights reserved.";
+    }
+    template.print('<p style="text-align: center; ' + color + '; ' + font_size + ';">' + copy_right + '</p>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:51</sys_created_on>
+        <sys_id>54250910a5412210fb5935cc09fbead2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1642217_myleav_0.copy_right</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_script_email_54250910a5412210fb5935cc09fbead2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:51</sys_updated_on>
+    </sys_script_email>
+</record_update>

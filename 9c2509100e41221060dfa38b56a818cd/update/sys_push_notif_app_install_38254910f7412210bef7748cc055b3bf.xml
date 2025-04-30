@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2020-12-17 20:08:04</last_registered_on>
+        <send_badge_count>false</send_badge_count>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:48</sys_created_on>
+        <sys_id>38254910f7412210bef7748cc055b3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CC456EED4515BE2D77BE5C3A1A876468B5343B02C68178E2878F8761B3D19B25</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Request Application Internal">d50035d273122300d63a566a4cf6a72d</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_38254910f7412210bef7748cc055b3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:48</sys_updated_on>
+        <sys_user_id display_value="">e72b8b39db142810949ff9631d9619e7</sys_user_id>
+        <token>CC456EED4515BE2D77BE5C3A1A876468B5343B02C68178E2878F8761B3D19B25</token>
+    </sys_push_notif_app_install>
+</record_update>

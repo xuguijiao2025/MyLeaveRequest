@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Portal Theme</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc258910924122104aa38f84da487b78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_theme_fc258910924122104aa38f84da487b78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:54</sys_updated_on>
+        <theme>{&#13;
+  "--now-font-family": "Roboto, sans-serif",&#13;
+  "--now-heading--header-primary--font-weight": "600",&#13;
+  "--now-heading--header-primary--color": "0,0,0",&#13;
+  "--now-display-type--primary--font-family": "Cabin, sans-serif",&#13;
+  "--now-display-type--secondary--font-family": "Cabin, sans-serif",&#13;
+  "--now-navigation--font-weight": "600",&#13;
+  "--now-line-height-crop--before": "-0.2125em",&#13;
+  "--now-line-height-crop--after": "-0.275em",&#13;
+    &#13;
+  "--color--background-primary": "255,255,255",&#13;
+  "--color--background-secondary": "246,247,247",&#13;
+  "--color--background-tertiary": "228,230,231",&#13;
+  "--color--divider-primary": "135,147,148",&#13;
+  "--color--divider-secondary": "172,180,181",&#13;
+  "--color--divider-tertiary": "209,214,214",&#13;
+  "--color--text-primary": "22,27,28",&#13;
+  "--color--text-secondary": "66,80,81",&#13;
+  "--color--text-tertiary": "99,114,116",&#13;
+  "--now-tabs--selected--background-color": "1,119,142",&#13;
+  "--now-color--secondary-0": "230,251,255",&#13;
+  "--now-canvas-header-container--short--border-width": "0",&#13;
+  "--now-button--width-scale": "1.25",&#13;
+  "--now-button--height-scale": "1.25",&#13;
+  "--now-button--primary--color": "var(--now-contact-btn-text-color)",&#13;
+  "--now-button--primary--color--hover": "var(--now-contact-btn-text-color)",&#13;
+  "--now-button--primary--background-color": "0,48,89",&#13;
+  "--now-button--primary--background-color--hover": "0,0,0",&#13;
+  "--now-button--primary--background-color--active": "0,48,89",&#13;
+  "--now-button--primary--color--active": "var(--now-contact-btn-color)",&#13;
+  "--now-button--primary--border-color": "var(--now-contact-btn-color)",&#13;
+  "--now-button--primary--border-color--hover": "var(--now-contact-btn-color)",&#13;
+  "--now-button--primary--border-color--active": "var(--now-contact-btn-color)",&#13;
+  "--now-button--border-radius": "25px",&#13;
+  "--now-button--secondary--background-color--hover": "255,255,255",&#13;
+  "--now-button--secondary--background-color": "255,255,255",&#13;
+  "--now-button--tertiary--border-color": "0,48,89",&#13;
+  "--now-button--secondary--border-color": "0,48,89",&#13;
+  "--now-tabs--background-color--active": "255,255,255",&#13;
+  "--now-tabs--background-color--disabled": "255,255,255",&#13;
+  "--now-tabs--border-color--active": "3,120,214",&#13;
+  "--now-tabs--border-color--hover": "3,120,214",&#13;
+  "--now-tabs--border-color--selected": "255,255,255",&#13;
+  "--now-button--bare_primary--color": "3,120,214",&#13;
+  "--now-text-link--primary--color": "3,120,214",&#13;
+  "--now-card--border-radius": "4px",&#13;
+  "--now-card--border-color": "209,214,214",&#13;
+  "--now-button--iconic--background-color--hover": "0,48,89",&#13;
+  "--now-color--secondary-2": "0,48,89",&#13;
+  "--now-button--tertiary--border-color--active": "0,48,89",&#13;
+  "--now-color_alert--low-0": "217,217,217",&#13;
+    &#13;
+  "canvas-header-container--background-color": "41, 62, 64",&#13;
+  "canvas-nav-item--simple-nav--color": "var(--now-color--neutral-4)",&#13;
+  "canvas-nav-item--simple-nav--color--hover": "var(--now-color--neutral-4)",&#13;
+  "canvas-nav-item--simple-nav--color--active": "var(--now-color--neutral-4)",&#13;
+  "canvas-nav-item--simple-nav--background-color--hover": "var(--now-color--primary-1)",&#13;
+  "catalog--variable-gap": "1.5rem",&#13;
+  "contact-btn-color": "3,120,214",&#13;
+  "contact-btn-text-color": "255,255,255"&#13;
+    &#13;
+}</theme>
+    </sys_ux_theme>
+</record_update>

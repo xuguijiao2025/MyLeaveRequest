@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format/>
+        <height/>
+        <image>702589105e412210582305a857124790</image>
+        <name>x_1642217_myleav_0.time_off_conf_pg_2.svg</name>
+        <size_bytes>8343</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:50</sys_created_on>
+        <sys_id>b825891060412210759c2e45bb970390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1642217_myleav_0.time_off_conf_pg_2.svg</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>db_image_b825891060412210759c2e45bb970390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:50</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>db5266c01e9f38304bf02c5c3a4b925afc08b87f4b510905124ebd31252d4488</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>8343</size_bytes>
+        <size_compressed>2496</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:50</sys_created_on>
+        <sys_id>702589105e412210582305a857124790</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:50</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>b825891060412210759c2e45bb970390</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="702589105e412210582305a857124790">702589105e412210582305a857124790</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:50</sys_created_on>
+        <sys_id>74258910924122102763798aab8d688f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3316</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="702589105e412210582305a857124790">702589105e412210582305a857124790</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:50</sys_created_on>
+        <sys_id>fc25891057412210e0b1cfc6bff2dd8e</sys_id>
+    </sys_attachment_doc>
+</record_update>

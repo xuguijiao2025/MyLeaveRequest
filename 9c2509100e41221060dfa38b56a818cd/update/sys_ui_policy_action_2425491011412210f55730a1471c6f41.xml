@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>requested_by.department</field>
+        <field_message/>
+        <field_message_type/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:53</sys_created_on>
+        <sys_id>2425491011412210f55730a1471c6f41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>requested_by.department</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2425491011412210f55730a1471c6f41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-23 06:48:44</sys_updated_on>
+        <table>x_1642217_myleav_0_request</table>
+        <ui_policy display_value="Read-only fields">2025491079412210f53a8c0bd423a342</ui_policy>
+        <value/>
+        <value_action/>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=2425491011412210f55730a1471c6f41"/>
+</record_update>

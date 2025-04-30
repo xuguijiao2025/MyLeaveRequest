@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1642217_myleav_0.Transform - Recent Requests</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Transform - Recent Requests</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{&#13;
+  "name": "evamData",&#13;
+  "label": "TO EVAM Data",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "object",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": {}&#13;
+}]</props>
+        <required_translations>[{"message":"TO EVAM Data","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    input.evamData.items = input.evamData.items.map(function(item) {
+
+        var BkgColor = 'No Output';
+        var rejection = item.propValues.model.rejection_reason;
+        var reason = item.propValues.model.time_off_reason;
+        var status = item.propValues.model.status;
+        item.propValues.subtitle = reason;
+        switch (status) {
+            case 'Draft':
+                BkgColor = 'yellow';
+                break;
+            case 'Requested':
+                BkgColor = 'orange';
+                break;
+            case 'Approved':
+                BkgColor = 'green';
+                break;
+            case 'Rejected':
+                item.propValues.subtitle = rejection;
+                BkgColor = 'gray';
+                break;
+            case 'Cancelled':
+                BkgColor = 'gray';
+                break;
+        }
+        item.propValues.highlightedHeaderBkgColor = BkgColor;
+        if (status != "Draft")
+            item.propValues.mainActions = [];
+        var userFormat = new x_1642217_myleav_0.TimeOffDateValidation();
+        var start = new GlideDateTime();
+        start.setValue(userFormat.loggedInUserDateformat(item.propValues.model.start_date));
+        var end = new GlideDateTime();
+        end.setValue(userFormat.loggedInUserDateformat(item.propValues.model.end_date)); 
+        item.propValues.titleLabel =  gs.getMessage('{0} to {1}',[new GlideDate(start.getDate()).getDisplayValue(),new GlideDate(end.getDate()).getDisplayValue()]);
+        var dur = GlideDateTime.subtract(start, end);
+        var days = dur.getRoundedDayPart() + 1;
+        item.propValues.detailValueOne = days + ' days';
+        return item;
+    });
+    return input.evamData;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:34</sys_created_on>
+        <sys_id>fc25491069412210fe70a2eb203ca2b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transform - Recent Requests</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_fc25491069412210fe70a2eb203ca2b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:34</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc25491069412210fe70a2eb203ca2b6"/>
+</record_update>

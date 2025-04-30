@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Submit">58250910e44122105fdb7df4e95384f4</action>
+        <active>true</active>
+        <color/>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Submit</label>
+        <layout_group/>
+        <name>submit</name>
+        <order>0</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:46</sys_created_on>
+        <sys_id>942509105d41221044a00a311cd11cf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_942509105d41221044a00a311cd11cf4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:46</sys_updated_on>
+        <table>x_1642217_myleav_0_request</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

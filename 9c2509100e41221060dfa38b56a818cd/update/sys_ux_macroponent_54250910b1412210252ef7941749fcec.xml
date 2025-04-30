@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "interaction_custom_renderer_1",
+  "elementLabel" : "Interaction custom renderer 1",
+  "propertyValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "interaction"
+    },
+    "sysId" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "currentInteraction" ]
+      }
+    },
+    "query" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "interaction",
+  "definition" : {
+    "id" : "ba6d41ce2e375254fc8a7acd7c4e8229",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "agent_inbox_1",
+  "elementLabel" : "Agent Inbox 1",
+  "propertyValues" : {
+    "user" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user" ],
+        "category" : "session"
+      }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "ckeerbbeeisaaaaaaggddhhheegiiaadddzlgg",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_omnich_interact.SN_AGENT_INBOX#WORK_ITEM_ACCEPTED",
+    "sourceEventDefinition" : {
+      "apiName" : "sn_omnich_interact.SN_AGENT_INBOX#WORK_ITEM_ACCEPTED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "60dced36c336101080d6d3658940dd09"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckeerbbhhlraaaaaahhddhhheejrobsien",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : "inbox",
+  "definition" : {
+    "id" : "c6cef271e7215bc72a679d5f864f4663",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "agent_chat_1",
+  "elementLabel" : "Agent chat 1",
+  "propertyValues" : {
+    "interaction" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "currentInteraction" ]
+      }
+    },
+    "user" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user" ],
+        "category" : "session"
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "chat",
+  "definition" : {
+    "id" : "7f6003388c40468c7b1bf52fc0171716",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"inbox","rules":{"overflow":"hidden","grid-column":"1"},"styles":{"display":"flex"}},{"slotName":"chat","rules":{"overflow":"hidden","grid-column":"2"},"styles":{"display":"flex"}},{"slotName":"interaction","rules":{"overflow":"hidden","grid-column":"3"},"styles":{"display":"flex"}}],
+    "root" : null,
+    "rules" : {"display":"grid","grid-template-columns":"240px 400px 1fr","grid-template-rows":"1fr ","grid-gap":"0px","height":"calc(100vh - 56px)","overflow":"hidden","margin":"-1.5rem"},
+    "styles" : null,
+    "templateId" : null,
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Inbox</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:54</sys_created_on>
+        <sys_id>54250910b1412210252ef7941749fcec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inbox</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ux_macroponent_54250910b1412210252ef7941749fcec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:54</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=54250910b1412210252ef7941749fcec"/>
+</record_update>

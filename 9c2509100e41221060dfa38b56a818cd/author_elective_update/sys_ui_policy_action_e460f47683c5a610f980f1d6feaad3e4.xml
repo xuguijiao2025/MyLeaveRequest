@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>time_off_reason</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 06:28:34</sys_created_on>
+        <sys_id>e460f47683c5a610f980f1d6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>time_off_reason</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e460f47683c5a610f980f1d6feaad3e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 06:28:34</sys_updated_on>
+        <table>x_1642217_myleav_0_request</table>
+        <ui_policy display_value="Show Cancelled  reason when Cancelled ">44bfa83683c5a610f980f1d6feaad377</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e460f47683c5a610f980f1d6feaad3e4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</application>
+        <file_path/>
+        <instance_id>755d98921bfef990fe1b43f4bd4bcbfd</instance_id>
+        <instance_name>dev230399</instance_name>
+        <name>sys_ui_policy_action_e460f47683c5a610f980f1d6feaad3e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>time_off_reason</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-25 06:28:34</sys_created_on><sys_id>e460f47683c5a610f980f1d6feaad3e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>time_off_reason</sys_name><sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package><sys_policy/><sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope><sys_update_name>sys_ui_policy_action_e460f47683c5a610f980f1d6feaad3e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-25 06:28:34</sys_updated_on><table>x_1642217_myleav_0_request</table><ui_policy display_value="Show Cancelled  reason when Cancelled ">44bfa83683c5a610f980f1d6feaad377</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e460f47683c5a610f980f1d6feaad3e4"/></record_update>]]></payload>
+        <payload_hash>1688576609</payload_hash>
+        <record_name>time_off_reason</record_name>
+        <reverted_from/>
+        <source>b145055083412210f980f1d6feaad3b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 06:28:34</sys_created_on>
+        <sys_id>c1a074768385a610f980f1d6feaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1966ba235750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 06:28:34</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c5a074764b85a610720dcddd7ad1f14e</update_guid>
+        <update_guid_history>c5a074764b85a610720dcddd7ad1f14e:1688576609</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-25 07:22:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>361c8225233e463c9683b8969174dc61</sys_id>
+        <sys_metadata>e460f47683c5a610f980f1d6feaad3e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>time_off_reason</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_parent display_value="Show Cancelled  reason when Cancelled ">44bfa83683c5a610f980f1d6feaad377</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_scope_delete display_value="">66c4c0d0562a4dd8a69435d3dba2bc40</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e460f47683c5a610f980f1d6feaad3e4</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e460f47683c5a610f980f1d6feaad3e4">c1a074768385a610f980f1d6feaad34f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 07:22:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>List_decline_modal</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c,d91731a9534723003eddddeeff7b121c</applicable_to>
+        <description/>
+        <label>List decline modal</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_3c258910d9412210bea5e8162ee32c57</payload_field_table>
+        <payload_template>{"route": "list_modal_page", "fields": {"table":"{{table}}"}}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:47</sys_created_on>
+        <sys_id>3c258910d9412210bea5e8162ee32c57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List decline modal</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_3c258910d9412210bea5e8162ee32c57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:47</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

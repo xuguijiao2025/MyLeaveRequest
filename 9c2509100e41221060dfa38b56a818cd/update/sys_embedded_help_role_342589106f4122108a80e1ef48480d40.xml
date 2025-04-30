@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_1642217_myleav_0.manager" name="x_1642217_myleav_0.manager">7c25891075412210c9b915b5f36bc491</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 13:33:41</sys_created_on>
+        <sys_id>342589106f4122108a80e1ef48480d40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7c25891075412210c9b915b5f36bc491</sys_name>
+        <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
+        <sys_update_name>sys_embedded_help_role_342589106f4122108a80e1ef48480d40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 13:33:41</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
