@@ -39,7 +39,7 @@
         var user = current.requested_by.name;
         gs.info('Time Off Request for ' + user + ' has been Approved.');
 
-        // 你可以触发事件，如：
+        // 触发事件：
         // gs.eventQueue("time_off.approved", current, current.sys_id, user);
     }
 
@@ -50,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4e44cd39834d6210f980f1d6feaad305</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Set Approval Date &amp; Notify</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyLeaveRequest" source="x_1642217_myleav_0">9c2509100e41221060dfa38b56a818cd</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="MyLeaveRequest">9c2509100e41221060dfa38b56a818cd</sys_scope>
         <sys_update_name>sys_script_4e44cd39834d6210f980f1d6feaad305</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-22 06:49:45</sys_updated_on>
+        <sys_updated_on>2025-05-06 00:36:27</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
